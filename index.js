@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended:true}))
 
 const listaPedidos = []
 const pool = new pg.Pool ({
-    connectionString: "postgres://swfoyrjzqjcbsb:59d025ca89214149926b40da06602cb6b5cd6846ce5781d217139791af670e82@ec2-34-225-167-77.compute-1.amazonaws.com:5432/d67g46rslegabv",
+    connectionString: "postgres://dfklydznfnfkjg:92047acfb7be3dcfce573bbdbe6f1f3aca1989f5193c2a3b738796c510cc2e9c@ec2-54-205-183-19.compute-1.amazonaws.com:5432/df87khmiok88e3",
     ssl: {
         rejectUnauthorized: false
     }
